@@ -1,0 +1,77 @@
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="clock_style.css">
+  <script type="text/javascript">
+    window.onload = setInterval(clock,1000);
+    function clock()
+          {
+            var d = new Date();
+            
+            var date = d.getDate();
+            
+            var month = d.getMonth();
+            var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+            month=montharr[month];
+            
+            var year = d.getFullYear();
+            
+            var day = d.getDay();
+            var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            day=dayarr[day];
+            
+            var hour =d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+          
+            document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+            document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+          }
+        </script>
+  
+
+<title>HOMEPAGE</title>
+</head>
+<body>
+ 
+
+  
+
+    <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">experience</a></li>
+            <li><a href="biography.html">biography</a></li>
+            <li><a href="family.html">family</a></li>
+            <li><a href="gallery.html">gallery</a></li>
+            <li><a href="education.html">education</a></li>
+            <li><a href="favmusic.html"> favourite music</a></li>
+            <!--link page by page-->
+            <li><a href="https://web.facebook.com/norhani.farisha/" class="fa fa-facebook"></a></li>
+            <li><a href="https://twitter.com/hiragihani" class="fa fa-twitter"></a></li>
+            <li><a href="https://www.instagram.com/hiragihani/" class="fa fa-instagram "></a></li>
+        
+    </ul><br>
+    <p id="date"></p>
+      <p id="time"></p>
+
+      <!--insert internal image-->
+      <body background="pictures/background2.jpg">
+        
+      </body>
+      
+
+   
+    
+
+    <img src="pictures/maxresdefault.jpg"><br>
+
+    <p><b> INFORMATION SCIENCE STUDIES COLLEGE OF COMPUTING, INFORMATICS AND MEDIA<br>
+      (IM110)<br>
+      INTRODUCTION TO WEB CONTENT MANAGEMENT AND DESIGN (IMD311)<br>
+    PREPARED BY:NORHANI FARISHA BINTI MOHD NORINDRAN(2020479188)<br>
+    GROUP:N5IM1105A<br>
+     PREPARED FOR:MADAM SERI INTAN IDAYU BINTI SHAHRUL ASARI</b></p>
+  </div>
+</body>
+</html>
