@@ -1,0 +1,138 @@
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#3A668FFF;
+    
+  }
+  
+  li {
+    display: inline-block;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+   li a:hover{
+    background-color: black;
+  }
+  body{
+        background-image: url('pictures/background2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      h1{
+        text-align: center;
+      }
+h2{
+  width:50%;
+  margin-top:10%;
+  position: absolute;
+  font-size: 8vw;
+  font-weight: bold;
+  color:white;
+  letter-spacing: spacing 5px;
+}
+
+#clock{
+  width:100%;
+  position:absolute;
+  font-size: 9vw;
+  color:white;
+  text-align: center;
+  margin-top: 25%;
+}
+      img{
+        width: 400px;
+        height: 300px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
+img.biography{
+       width: 500px;
+        height: 500px;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+}
+p{
+    text-align: center;
+    color:white;
+    border: 3px solid black;
+}
+img.gallery{
+  width: 500px;
+   height: 500px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+}
+table th,td{
+  text-align: center;
+  color:white;
+  border: 3px solid black;
+  border-collapse: collapse;
+  background-color:#EAA7E3;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin-right:10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:#3A668FFF;
+  color: white;
+}
+
+  .fa-twitter{
+    background:#3A668FFF;
+    color:white;
+    }
+
+  .fa-instagram{
+    background:#3A668FFF;
+    color:white
+ }
+ img.experience{
+  width: 600x;
+   height: 600px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ img.education{
+  width: 400px;
+   height: 400px;
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ div.container{
+  text-align: center;
+  color:whitesmoke;
+  
+ }
+ ul.myUL{
+  display:inline-block;
+  text-align: left;
+  }
+ li.music{
+  text-align: center;
+ }
